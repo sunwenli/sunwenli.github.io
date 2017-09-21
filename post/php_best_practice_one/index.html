@@ -39,11 +39,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://sunwenli.github.io/post/widgets/">
+  <link rel="canonical" href="https://sunwenli.github.io/post/php_best_practice_one/">
 
   
 
-  <title>Customizing the homepage with widgets | Resume - Wenli Sun</title>
+  <title>macOS PHP best practice (one) | Resume - Wenli Sun</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -168,14 +168,14 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Customizing the homepage with widgets</h1>
+    <h1 itemprop="name">macOS PHP best practice (one)</h1>
     
 
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="2016-04-20 11:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Wed, Apr 20, 20007
+    <time datetime="2017-09-07 19:45:00 &#43;0000 UTC" itemprop="datePublished">
+      Thu, Sep 7, 7007
     </time>
   </span>
 
@@ -183,17 +183,6 @@
 
   
   
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/tags/academic">academic</a
-    >, 
-    
-    <a href="/tags/hugo">hugo</a
-    >
-    
-  </span>
   
   
 
@@ -203,35 +192,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsunwenli.github.io%2fpost%2fwidgets%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsunwenli.github.io%2fpost%2fphp_best_practice_one%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Customizing%20the%20homepage%20with%20widgets&amp;url=https%3a%2f%2fsunwenli.github.io%2fpost%2fwidgets%2f"
+         href="https://twitter.com/intent/tweet?text=macOS%20PHP%20best%20practice%20%28one%29&amp;url=https%3a%2f%2fsunwenli.github.io%2fpost%2fphp_best_practice_one%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsunwenli.github.io%2fpost%2fwidgets%2f&amp;title=Customizing%20the%20homepage%20with%20widgets"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsunwenli.github.io%2fpost%2fphp_best_practice_one%2f&amp;title=macOS%20PHP%20best%20practice%20%28one%29"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsunwenli.github.io%2fpost%2fwidgets%2f&amp;title=Customizing%20the%20homepage%20with%20widgets"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsunwenli.github.io%2fpost%2fphp_best_practice_one%2f&amp;title=macOS%20PHP%20best%20practice%20%28one%29"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Customizing%20the%20homepage%20with%20widgets&amp;body=https%3a%2f%2fsunwenli.github.io%2fpost%2fwidgets%2f">
+         href="mailto:?subject=macOS%20PHP%20best%20practice%20%28one%29&amp;body=https%3a%2f%2fsunwenli.github.io%2fpost%2fphp_best_practice_one%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -244,64 +233,112 @@
 </div>
 
     <div class="article-style" itemprop="articleBody">
-      
+      <p>This article show us how to use mac own local web sever apache to build our own static website. ​😄​.</p>
 
-<p>Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:</p>
+<h4 id="macos-php-best-practice-one">macOS PHP best practice (one)</h4>
 
-<ul>
-<li>About/biography</li>
-<li>Selected publications</li>
-<li>Recent publications</li>
-<li>Recent news/blog posts</li>
-<li>Projects</li>
-<li>Selected talks</li>
-<li>Recent talks</li>
-<li>Contact</li>
-<li>Custom widget (demonstrated with the <em>teaching</em> example)</li>
-</ul>
+<p>最简单直接的方式还是使用 Mac 上自带的 Apache 和 PHP。</p>
 
-<p>The example site that you copied to create your site uses all the different types of widget (except talks), so you can generally just delete the widgets you don&rsquo;t need and customize the parameters of the widgets you wish to keep.</p>
+<h5 id="启动-apache">启动 Apache</h5>
 
-<p>The parameters for each widget vary. They can be found in the preamble/frontmatter (between the pair of <code>+++</code>) for each widget installed in the <code>content/home/</code> folder.</p>
+<ol>
+<li>启动:</li>
+</ol>
 
-<div class="alert alert-note">
-  <p>By default, publications will be displayed in a simple list. If you prefer a more detailed list with abstract and image, you can enable the detailed publication list on the homepage by setting <code>detailed_list = true</code> in <code>content/home/publications.md</code>.</p>
-
-</div>
-
-
-<h2 id="add-a-widget-to-the-homepage">Add a widget to the homepage</h2>
-
-<p>To add a widget manually, copy the relevant widget from <code>themes/academic/exampleSite/content/home/</code> to your <code>content/home/</code> folder.</p>
-
-<p>Widget identifiers are set to their respective filenames, so a <code>content/home/about.md</code> widget can be linked from the navigation bar by setting the relevant URL as <code>&quot;#about&quot;</code> in <code>config.toml</code>.</p>
-
-<p>This means that if you want to use multiple instances of a widget, each widget will be assigned a unique ID based on the filename that you set. You can then use that ID for linking, like in the above example.</p>
-
-<h2 id="using-the-custom-widget">Using the custom widget</h2>
-
-<p>You can use the custom widget to create your own home page sections.</p>
-
-<p>Simply duplicate (copy/paste) and rename the example <em>teaching</em> file at <code>content/home/teaching.md</code>. Then edit the section title, weight (refer to <em>Ordering sections</em> below), and content as desired.</p>
-
-<p>You may also wish to add a navigation link to the top of the page that points to the new section. This can be achieved by adding something similar to the following lines to your <code>config.toml</code>, where the URL will consist of the first title word in lowercase:</p>
-
-<pre><code>[[menu.main]]
-    name = &quot;Research&quot;
-    url = &quot;#research&quot;
-    weight = 10
+<pre><code>   apache $sudo apachectl start 
 </code></pre>
 
-<h2 id="remove-a-widget-from-the-homepage">Remove a widget from the homepage</h2>
+<ol>
+<li><p>启动后，在浏览器中输入<code>localhost</code> ，可以看到页面上显示<code>It works！</code>。(<code>/Library/WebServer/Documents/</code>下的<code>index.html.en</code>文件)</p></li>
 
-<p>If you do not require a particular widget, you can simply delete any associated files from the <code>content/home/</code> folder.</p>
+<li><p><code>Apache</code> 的默认根目录是 <code>/Library/WebServer/Documents/</code>。</p></li>
+</ol>
 
-<p>To remove a navigation link from the top of the page, remove the associated <code>[[menu.main]]</code> entry in <code>config.toml</code>.</p>
+<h5 id="添加apache对php的支持">添加apache对php的支持</h5>
 
-<h2 id="ordering-widgets">Ordering widgets</h2>
+<ol>
+<li>打开 <code>http.conf</code> 配置文件:</li>
+</ol>
 
-<p>The order that the homepage widgets are displayed in is defined by the <code>weight</code> parameter in each of the files in the <code>content/home/</code> directory. The widgets are displayed in ascending order of their <code>weight</code>, so you can simply edit the <code>weight</code> parameters as desired.</p>
+<pre><code>    sudo vim /etc/apache2/httpd.conf
+</code></pre>
 
+<ol>
+<li>找到以下代码 <code>LoadModule php5_module libexec/apache2/ libphp5.so</code> 并去掉注释（去掉前面的==#==号）, <code>wq</code> 保存退出。</li>
+</ol>
+
+<h5 id="重启-apache-进行php类型文件的调试">重启 Apache,进行php类型文件的调试</h5>
+
+<ol>
+<li>重启:</li>
+</ol>
+
+<pre><code>   sudo apachectl restart
+</code></pre>
+
+<ol>
+<li><p>在 <code>Apache</code> 的根目录 <code>/Library/WebServer/Documents/</code> 下新建<code>project</code>文件夹并写一个<code>php</code>文件输出<code>hello world</code>。此时，在浏览器打开 <a href="http://localhost/project/test.php" target="_blank">http://localhost/project/test.php</a> 就可以正常看到<code>hello world</code>了~</p></li>
+
+<li><p>如果有权限问题,使用下列命令：</p></li>
+</ol>
+
+<pre><code>   sudo chown yourname:staff project
+</code></pre>
+
+<p>其中 <code>yourname</code> 是你自己的名字。</p>
+
+<h5 id="使用homebrew安装mysql">使用homebrew安装mysql</h5>
+
+<ol>
+<li>安装homebrew</li>
+</ol>
+
+<pre><code>ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+</code></pre>
+
+<ol>
+<li>安装mysql</li>
+</ol>
+
+<pre><code>brew install mysql
+</code></pre>
+
+<ol>
+<li>启动mysql</li>
+</ol>
+
+<pre><code>mysql.server start
+</code></pre>
+
+<h5 id="apache-常用命令">Apache 常用命令</h5>
+
+<ol>
+<li>启动 Apache 服务</li>
+</ol>
+
+<pre><code>sudo apachectl start
+</code></pre>
+
+<ol>
+<li>重新启动 Apache 服务</li>
+</ol>
+
+<pre><code>sudo apachectl restart
+</code></pre>
+
+<ol>
+<li>关闭 Apache 服务</li>
+</ol>
+
+<pre><code>sudo apachectl stop
+</code></pre>
+
+<ol>
+<li>查看 Apache 版本</li>
+</ol>
+
+<pre><code>httpd -v
+</code></pre>
     </div>
   </div>
 
@@ -311,13 +348,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://sunwenli.github.io/post/managing-content/"><span
-      aria-hidden="true">&larr;</span> Managing content</a></li>
+    <li class="previous"><a href="https://sunwenli.github.io/post/getting-started/"><span
+      aria-hidden="true">&larr;</span> Getting sssssstarted with the Academic framework for Hugo</a></li>
     
 
-    
-    <li class="next"><a href="https://sunwenli.github.io/post/getting-started/">Getting sssssstarted with the Academic framework for Hugo <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
@@ -379,6 +413,13 @@
       <script>hljs.initHighlightingOnLoad();</script>
     
 
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
     
     
 

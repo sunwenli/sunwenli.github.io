@@ -7,9 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy; 2017 Wenday</copyright>
-    
-	<atom:link href="https://sunwenli.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/zh/tags/" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

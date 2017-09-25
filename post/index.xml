@@ -13,7 +13,7 @@
     <item>
       <title>macOS PHP best practice (one)</title>
       <link>https://sunwenli.github.io/post/php_best_practice_one/</link>
-      <pubDate>Thu, 07 Sep 2017 19:45:00 +0000</pubDate>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://sunwenli.github.io/post/php_best_practice_one/</guid>
       <description>&lt;p&gt;This article show us how to use mac own local web sever apache to build our own static website. ​😄​.&lt;/p&gt;
@@ -28,7 +28,7 @@
 &lt;li&gt;启动:&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;pre&gt;&lt;code&gt;   apache $sudo apachectl start 
+&lt;pre&gt;&lt;code&gt;   apache $sudo apachectl start
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ol&gt;
@@ -920,24 +920,6 @@ With Jekyll, something that looked like&lt;/p&gt;
 &lt;h2 id=&#34;a-practical-example&#34;&gt;A practical example&lt;/h2&gt;
 
 &lt;p&gt;Alexandre Normand migrated his website from Jekyll to Hugo in less than a day. You can see all his changes by looking at this GitHub &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610&#34; target=&#34;_blank&#34;&gt;diff&lt;/a&gt;. However, bear in mind that this example is &lt;strong&gt;not specific to the Academic theme nor does it use the latest version of Hugo&lt;/strong&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://sunwenli.github.io/post/firstpost/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://sunwenli.github.io/post/firstpost/</guid>
-      <description>
-
-&lt;p&gt;f&amp;mdash;
-title: &amp;ldquo;Firstpost&amp;rdquo;
-date: 2017-09-20T21:09:55+08:00&lt;/p&gt;
-
-&lt;h2 id=&#34;draft-true&#34;&gt;draft: true&lt;/h2&gt;
-
-&lt;p&gt;fdafdafas&lt;/p&gt;
 </description>
     </item>
     

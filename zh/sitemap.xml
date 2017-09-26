@@ -9,7 +9,115 @@
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/php_best_practice_one/" hreflang="en"/>
     
       <loc>https://sunwenli.github.io/zh/post/php_best_practice_one/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <lastmod>2017-09-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/academic/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/academic/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/tags/academic/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/post/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/project/deep-learning/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/project/deep-learning/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/project/deep-learning/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/project/example-external-project/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/project/example-external-project/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/project/example-external-project/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/getting-started/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/getting-started/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/post/getting-started/</loc>
+      <lastmod>2016-04-20T12:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/widgets/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/widgets/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/post/widgets/</loc>
+      <lastmod>2016-04-20T11:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/managing-content/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/managing-content/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/post/managing-content/</loc>
+      <lastmod>2016-04-20T11:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/writing-markdown-latex/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/writing-markdown-latex/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/post/writing-markdown-latex/</loc>
+      <lastmod>2016-04-20T10:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/migrate-from-jekyll/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/migrate-from-jekyll/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/post/migrate-from-jekyll/</loc>
+      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -29,11 +137,63 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/" hreflang="zh"/>
-      <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/deep-learning/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/deep-learning/" hreflang="en"/>
     
-      <loc>https://sunwenli.github.io/zh/post/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <loc>https://sunwenli.github.io/zh/tags/deep-learning/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/demo/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/demo/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/tags/demo/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/hugo/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/hugo/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/tags/hugo/</loc>
+      <lastmod>2016-04-20T12:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/jekyll/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/jekyll/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/tags/jekyll/</loc>
+      <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/project/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/project/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/project/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -58,6 +218,7 @@
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/" hreflang="en"/>
     
       <loc>https://sunwenli.github.io/zh/tags/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -70,7 +231,7 @@
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/" hreflang="en"/>
     
       <loc>https://sunwenli.github.io/zh/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <lastmod>2017-09-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

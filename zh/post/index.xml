@@ -11,6 +11,41 @@
     <atom:link href="/zh/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>macOS PHP best practice (two)</title>
+      <link>https://sunwenli.github.io/zh/post/php_best_practice_two/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/zh/post/php_best_practice_two/</guid>
+      <description>&lt;p&gt;This article is mine recent days work summary. 😄.&lt;/p&gt;
+
+&lt;p&gt;距离上一次写博客有2个月了，与其说博客，倒可以把这看作一周的工作的总结 😂。闲言少叙，开工。&lt;/p&gt;
+
+&lt;h5 id=&#34;前期准备&#34;&gt;前期准备&lt;/h5&gt;
+
+&lt;p&gt;​   首先，在过去一个周，先是着手制定了一份 **2017~2018年度目标计划 **，最近想学的技术及为自己未来找个定位然后列出一个季度的任务(12月~2月) 。&lt;/p&gt;
+
+&lt;h5 id=&#34;着手实现&#34;&gt;着手实现&lt;/h5&gt;
+
+&lt;p&gt;这周主要是在了解 &lt;code&gt;PHP&lt;/code&gt; 的一个常用的框架 &lt;a href=&#34;https://codeigniter.com/&#34; target=&#34;_blank&#34;&gt;CodeIgniter&lt;/a&gt; , 单位的项目也是基于它开发的，所以学习起来可以参考这单位的项目，这样对比这学习感觉更有效果。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;从官网下载 &lt;code&gt;CI&lt;/code&gt; 源码然后开启本地的 &lt;code&gt;web&lt;/code&gt; 服务器 Apache。这期间又了解了下 &lt;code&gt;Apache&lt;/code&gt; 的配置及使用。&lt;/li&gt;
+&lt;li&gt;学习资源和开发环境搭建都OK之后，进行 &lt;code&gt;CI&lt;/code&gt; 的学习。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;目标计划内也包括了书籍的阅读，所以 &lt;a href=&#34;https://baike.baidu.com/item/%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0/2792808?fr=aladdin&#34; target=&#34;_blank&#34;&gt;《刻意练习》&lt;/a&gt;这本书在每天上下班的路上也在阅读中（ps.  &lt;a href=&#34;https://weread.qq.com/&#34; target=&#34;_blank&#34;&gt;微信读书App&lt;/a&gt; 用着不错）。&lt;/p&gt;
+
+&lt;h5 id=&#34;实现进度&#34;&gt;实现进度&lt;/h5&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;CI&lt;/code&gt; 模型部分。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://baike.baidu.com/item/%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0/2792808?fr=aladdin&#34; target=&#34;_blank&#34;&gt;《刻意练习》&lt;/a&gt;阅读完成（300/1053）。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;第一次写东西，写的乱七八糟的。😂😂😂&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>macOS PHP best practice (one)</title>
       <link>https://sunwenli.github.io/zh/post/php_best_practice_one/</link>
       <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>

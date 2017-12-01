@@ -5,6 +5,18 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/php_best_practice_two/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/php_best_practice_two/" hreflang="zh"/>
+    
+      <loc>https://sunwenli.github.io/post/php_best_practice_two/</loc>
+      <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/php_best_practice_one/" hreflang="en"/>
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/php_best_practice_one/" hreflang="zh"/>
     
@@ -202,6 +214,19 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/php/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/php/" hreflang="zh"/>
+    
+      <loc>https://sunwenli.github.io/tags/php/</loc>
+      <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/project/" hreflang="en"/>
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/project/" hreflang="zh"/>
     
@@ -219,6 +244,19 @@
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/publication_types/" hreflang="zh"/>
     
       <loc>https://sunwenli.github.io/publication_types/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/summary/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/summary/" hreflang="zh"/>
+    
+      <loc>https://sunwenli.github.io/tags/summary/</loc>
+      <lastmod>2017-12-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

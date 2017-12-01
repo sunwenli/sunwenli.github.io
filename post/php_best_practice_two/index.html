@@ -16,6 +16,11 @@
     
   
   
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
@@ -28,17 +33,17 @@
 
   
 
-  <link rel="alternate" href="https://sunwenli.github.io/post/index.xml" type="application/rss+xml" title="Just Do it">
-  <link rel="feed" href="https://sunwenli.github.io/post/index.xml" type="application/rss+xml" title="Just Do it">
+  <link rel="alternate" href="https://sunwenli.github.io/index.xml" type="application/rss+xml" title="Just Do it">
+  <link rel="feed" href="https://sunwenli.github.io/index.xml" type="application/rss+xml" title="Just Do it">
 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://sunwenli.github.io/post/">
+  <link rel="canonical" href="https://sunwenli.github.io/post/php_best_practice_two/">
 
   
 
-  <title>Posts | Just Do it</title>
+  <title>macOS PHP best practice (two) | Just Do it</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -146,7 +151,7 @@
           <ul class="dropdown-menu">
             
             <li class="nav-item">
-              <a href="/zh/post/">
+              <a href="/zh/post/php_best_practice_two/">
                 <span>中文 (简体)</span>
               </a>
             </li>
@@ -161,20 +166,13 @@
 </nav>
 
 
-
-
-
-<div class="universal-wrapper">
-
-  <h1>Posts</h1>
+<article class="article" itemscope itemtype="http://schema.org/Article">
 
   
 
-  
-  
-  <div>
-    
-    <h2><a href="https://sunwenli.github.io/post/php_best_practice_two/">macOS PHP best practice (two)</a></h2>
+
+  <div class="article-container">
+    <h1 itemprop="name">macOS PHP best practice (two)</h1>
     
 
 <div class="article-metadata">
@@ -205,254 +203,106 @@
   
 
   
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsunwenli.github.io%2fpost%2fphp_best_practice_two%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=macOS%20PHP%20best%20practice%20%28two%29&amp;url=https%3a%2f%2fsunwenli.github.io%2fpost%2fphp_best_practice_two%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsunwenli.github.io%2fpost%2fphp_best_practice_two%2f&amp;title=macOS%20PHP%20best%20practice%20%28two%29"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsunwenli.github.io%2fpost%2fphp_best_practice_two%2f&amp;title=macOS%20PHP%20best%20practice%20%28two%29"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=macOS%20PHP%20best%20practice%20%28two%29&amp;body=https%3a%2f%2fsunwenli.github.io%2fpost%2fphp_best_practice_two%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
 
 </div>
 
-    <div class="article-style"><p>
-      
-      This article is mine recent days work summary. 😄.
-      
-    </p></div>
+    <div class="article-style" itemprop="articleBody">
+      <p>This article is mine recent days work summary. 😄.</p>
+
+<p>距离上一次写博客有2个月了，与其说博客，倒可以把这看作一周的工作的总结 😂。闲言少叙，开工。</p>
+
+<h5 id="前期准备">前期准备</h5>
+
+<p>​   首先，在过去一个周，先是着手制定了一份 **2017~2018年度目标计划 **，最近想学的技术及为自己未来找个定位然后列出一个季度的任务(12月~2月) 。</p>
+
+<h5 id="着手实现">着手实现</h5>
+
+<p>这周主要是在了解 <code>PHP</code> 的一个常用的框架 <a href="https://codeigniter.com/" target="_blank">CodeIgniter</a> , 单位的项目也是基于它开发的，所以学习起来可以参考这单位的项目，这样对比这学习感觉更有效果。</p>
+
+<ul>
+<li>从官网下载 <code>CI</code> 源码然后开启本地的 <code>web</code> 服务器 Apache。这期间又了解了下 <code>Apache</code> 的配置及使用。</li>
+<li>学习资源和开发环境搭建都OK之后，进行 <code>CI</code> 的学习。</li>
+</ul>
+
+<p>目标计划内也包括了书籍的阅读，所以 <a href="https://baike.baidu.com/item/%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0/2792808?fr=aladdin" target="_blank">《刻意练习》</a>这本书在每天上下班的路上也在阅读中（ps.  <a href="https://weread.qq.com/" target="_blank">微信读书App</a> 用着不错）。</p>
+
+<h5 id="实现进度">实现进度</h5>
+
+<ol>
+<li><code>CI</code> 模型部分。</li>
+<li><a href="https://baike.baidu.com/item/%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0/2792808?fr=aladdin" target="_blank">《刻意练习》</a>阅读完成（300/1053）。</li>
+</ol>
+
+<p>第一次写东西，写的乱七八糟的。😂😂😂</p>
+    </div>
   </div>
-  
-  <div>
+
+</article>
+
+
+
+
+<div class="container">
+  <nav>
+  <ul class="pager">
     
-    <h2><a href="https://sunwenli.github.io/post/php_best_practice_one/">macOS PHP best practice (one)</a></h2>
+    <li class="previous"><a href="https://sunwenli.github.io/post/php_best_practice_one/"><span
+      aria-hidden="true">&larr;</span> macOS PHP best practice (one)</a></li>
     
 
-<div class="article-metadata">
-
-  <span class="article-date">
     
-    <time datetime="2017-09-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Mon, Sep 25, 2017
-    </time>
-  </span>
+  </ul>
+</nav>
 
-  
+</div>
 
-  
-  
-  
-  
-
+<div class="article-container">
   
 
 </div>
 
-    <div class="article-style"><p>
-      
-      This article show us how to use mac own local web sever apache to build our own static website. ​😄​.
-      
-    </p></div>
-  </div>
-  
-  <div>
-    
-    <h2><a href="https://sunwenli.github.io/post/getting-started/">Getting sssssstarted with the Academic framework for Hugo</a></h2>
-    
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    
-    <time datetime="2016-04-20 12:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Wed, Apr 20, 2016
-    </time>
-  </span>
-
-  
-
-  
-  
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/tags/academic">academic</a
-    >, 
-    
-    <a href="/tags/hugo">hugo</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-    <div class="article-style"><p>
-      
-      Create a beautifully simple personal or academic website in under 10 minutes.
-      
-    </p></div>
-  </div>
-  
-  <div>
-    
-    <h2><a href="https://sunwenli.github.io/post/widgets/">Customizing the homepage with widgets</a></h2>
-    
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    
-    <time datetime="2016-04-20 11:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Wed, Apr 20, 2016
-    </time>
-  </span>
-
-  
-
-  
-  
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/tags/academic">academic</a
-    >, 
-    
-    <a href="/tags/hugo">hugo</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-    <div class="article-style"><p>
-      
-      Enable/disable and configure widgets to customize your homepage.
-      
-    </p></div>
-  </div>
-  
-  <div>
-    
-    <h2><a href="https://sunwenli.github.io/post/managing-content/">Managing content</a></h2>
-    
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    
-    <time datetime="2016-04-20 11:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Wed, Apr 20, 2016
-    </time>
-  </span>
-
-  
-
-  
-  
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/tags/academic">academic</a
-    >, 
-    
-    <a href="/tags/hugo">hugo</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-    <div class="article-style"><p>
-      
-      This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about <a href="https://sunwenli.github.io/post/writing-markdown-latex/" target="_blank">writing content with Markdown, LaTeX, and Shortcodes</a>.
-      
-    </p></div>
-  </div>
-  
-  <div>
-    
-    <h2><a href="https://sunwenli.github.io/post/writing-markdown-latex/">Writing content with Markdown, LaTeX, and Shortcodes</a></h2>
-    
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    
-    <time datetime="2016-04-20 10:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Wed, Apr 20, 2016
-    </time>
-  </span>
-
-  
-
-  
-  
-  
-  
-
-  
-
-</div>
-
-    <div class="article-style"><p>
-      
-      Content can be written using <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown</a>, <a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank">LaTeX math</a>, and <a href="http://gohugo.io/extras/shortcodes/" target="_blank">Hugo Shortcodes</a>. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.
-      
-    </p></div>
-  </div>
-  
-  <div>
-    
-    <h2><a href="https://sunwenli.github.io/post/migrate-from-jekyll/">Migrate from Jekyll to Hugo</a></h2>
-    
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    
-    <time datetime="2014-03-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Mon, Mar 10, 2014
-    </time>
-  </span>
-
-  
-
-  
-  
-  
-  <span class="article-tags">
-    <i class="fa fa-tags"></i>
-    
-    <a href="/tags/jekyll">jekyll</a
-    >
-    
-  </span>
-  
-  
-
-  
-
-</div>
-
-    <div class="article-style"><p>
-      
-      Learn how to migrate an existing website from Jekyll to Hugo.
-      
-    </p></div>
-  </div>
-  
-
-  
-
-
-</div>
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
@@ -487,7 +337,29 @@
 
     
     
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
 
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/go.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/lisp.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/ocaml.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
     
     
 

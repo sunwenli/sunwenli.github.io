@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ci on 人未尽,杯莫停</title>
+    <link>https://sunwenli.github.io/zh/tags/ci/</link>
+    <description>Recent content in Ci on 人未尽,杯莫停</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy; 2017 孙文礼</copyright>
+    <lastBuildDate>Tue, 12 Dec 2017 16:22:18 +0800</lastBuildDate>
+    <atom:link href="/zh/tags/ci/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Php_best_practice_three</title>
+      <link>https://sunwenli.github.io/zh/post/php_best_practice_three/</link>
+      <pubDate>Tue, 12 Dec 2017 16:22:18 +0800</pubDate>
+      
+      <guid>https://sunwenli.github.io/zh/post/php_best_practice_three/</guid>
+      <description>&lt;p&gt;This article is mainly talk about Email Class of CoderIgniter ,these days study CI during happiness and peniful. 😄.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

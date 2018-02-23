@@ -5,6 +5,30 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/2018_fighting/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/2018_fighting/" hreflang="zh"/>
+    
+      <loc>https://sunwenli.github.io/post/2018_fighting/</loc>
+      <lastmod>2018-02-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/php_best_practice_three/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/php_best_practice_three/" hreflang="zh"/>
+    
+      <loc>https://sunwenli.github.io/post/php_best_practice_three/</loc>
+      <lastmod>2017-12-12T16:22:18+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/php_best_practice_two/" hreflang="en"/>
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/php_best_practice_two/" hreflang="zh"/>
     
@@ -149,6 +173,19 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/ci/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/ci/" hreflang="zh"/>
+    
+      <loc>https://sunwenli.github.io/tags/ci/</loc>
+      <lastmod>2017-12-12T16:22:18+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/deep-learning/" hreflang="en"/>
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/deep-learning/" hreflang="zh"/>
     
@@ -167,6 +204,16 @@
     
       <loc>https://sunwenli.github.io/tags/demo/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://sunwenli.github.io/tags/fighting/</loc>
+      <lastmod>2018-02-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -218,7 +265,7 @@
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/php/" hreflang="zh"/>
     
       <loc>https://sunwenli.github.io/tags/php/</loc>
-      <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+      <lastmod>2017-12-12T16:22:18+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -256,7 +303,7 @@
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/summary/" hreflang="zh"/>
     
       <loc>https://sunwenli.github.io/tags/summary/</loc>
-      <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-02-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

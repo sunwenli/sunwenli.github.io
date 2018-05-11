@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ci on Just Do it</title>
-    <link>http://localhost:1313/tags/ci/</link>
+    <link>https://sunwenli.github.io/tags/ci/</link>
     <description>Recent content in Ci on Just Do it</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Php_best_practice_three</title>
-      <link>http://localhost:1313/post/php_best_practice_three/</link>
+      <link>https://sunwenli.github.io/post/php_best_practice_three/</link>
       <pubDate>Tue, 12 Dec 2017 16:22:18 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/php_best_practice_three/</guid>
+      <guid>https://sunwenli.github.io/post/php_best_practice_three/</guid>
       <description>&lt;p&gt;This article is mainly talk about Email Class of CoderIgniter ,these days study CI during happiness and peniful. 😄.&lt;/p&gt;</description>
     </item>
     

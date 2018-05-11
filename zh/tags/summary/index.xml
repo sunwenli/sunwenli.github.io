@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Summary on 人未尽,杯莫停</title>
-    <link>http://localhost:1313/zh/tags/summary/</link>
+    <link>https://sunwenli.github.io/zh/tags/summary/</link>
     <description>Recent content in Summary on 人未尽,杯莫停</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>macOS PHP best practice (two)</title>
-      <link>http://localhost:1313/zh/post/php_best_practice_two/</link>
+      <link>https://sunwenli.github.io/zh/post/php_best_practice_two/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zh/post/php_best_practice_two/</guid>
+      <guid>https://sunwenli.github.io/zh/post/php_best_practice_two/</guid>
       <description>&lt;p&gt;This article is mine recent days work summary. 😄.&lt;/p&gt;
 
 &lt;p&gt;距离上一次写博客有2个月了，与其说博客，倒可以把这看作一周的工作的总结 😂。闲言少叙，开工。&lt;/p&gt;

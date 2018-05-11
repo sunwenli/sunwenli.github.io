@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Summary on Just Do it</title>
-    <link>https://sunwenli.github.io/tags/summary/</link>
+    <link>http://localhost:1313/tags/summary/</link>
     <description>Recent content in Summary on Just Do it</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Energize、Breakthrough</title>
-      <link>https://sunwenli.github.io/post/2018_fighting/</link>
+      <link>http://localhost:1313/post/2018_fighting/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/post/2018_fighting/</guid>
+      <guid>http://localhost:1313/post/2018_fighting/</guid>
       <description>&lt;p&gt;The main aim of the year 2018 is to Energize、Breakthrough. 😄.&lt;/p&gt;
 
 &lt;h4 id=&#34;2018-赋能-突破&#34;&gt;2018 赋能、突破&lt;/h4&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>macOS PHP best practice (two)</title>
-      <link>https://sunwenli.github.io/post/php_best_practice_two/</link>
+      <link>http://localhost:1313/post/php_best_practice_two/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/post/php_best_practice_two/</guid>
+      <guid>http://localhost:1313/post/php_best_practice_two/</guid>
       <description>&lt;p&gt;This article is mine recent days work summary. 😄.&lt;/p&gt;
 
 &lt;p&gt;距离上一次写博客有2个月了，与其说博客，倒可以把这看作一周的工作的总结 😂。闲言少叙，开工。&lt;/p&gt;

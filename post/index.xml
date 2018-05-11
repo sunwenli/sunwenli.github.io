@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Just Do it</title>
-    <link>https://sunwenli.github.io/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on Just Do it</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,11 +11,75 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>iOS马甲包如何避免苹果审核4.3打回</title>
+      <link>http://localhost:1313/post/2018_0510/</link>
+      <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2018_0510/</guid>
+      <description>&lt;p&gt;iOS马甲包如何避免苹果审核4.3打回&lt;/p&gt;
+
+&lt;h3 id=&#34;ios马甲包如何避免苹果审核4-3打回&#34;&gt;iOS马甲包如何避免苹果审核4.3打回&lt;/h3&gt;
+
+&lt;h4 id=&#34;什么是4-3-为什么打回&#34;&gt;什么是4.3，为什么打回&lt;/h4&gt;
+
+&lt;p&gt;开发者提交审核的APP被苹果审核为重复应用（苹果开发指南4.3条款），不允许上架，严重者会被封开发者账号。&lt;/p&gt;
+
+&lt;h4 id=&#34;苹果审核机制&#34;&gt;苹果审核机制&lt;/h4&gt;
+
+&lt;p&gt;iOS包提交给苹果审核后，苹果那边会有 &lt;strong&gt;机审&lt;/strong&gt; 和 &lt;strong&gt;人工审核&lt;/strong&gt; 两种方式。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;机审
+
+&lt;ul&gt;
+&lt;li&gt;主要审核下包体力的二进制文件，这个过程中如果发现包体二进制相似度过高，回直接被4.3打回，不会进入人工审核流程。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;人工审核
+
+&lt;ul&gt;
+&lt;li&gt;走到这个流程是通过了机审，此时审核人员会用提审时开发者提供的游戏账号登录进游戏进行试玩，如果审核人员发现登录界面，游戏场景，美术UI相似度过高，仍然有可能会被4.3打回。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;如何避免4-3&#34;&gt;如何避免4.3&lt;/h4&gt;
+
+&lt;p&gt;方法有三，同时使用效果更佳：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;##### 使用不同的电脑+IP，出证书，打包&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;通过和苹果内部人员沟通了解到公司的IP已经被苹果列入重点审核名单，使用公司网络出的证书+打包都很容易被苹果审核为重复应用4.3打回。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;应对策略就是使用 4G网络出证书，打包设备也连接4G网络。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;##### 垃圾代码&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;关于垃圾代码有一个量的把握，一个包应该加多少垃圾代码，之前调研的数量是总代码量的30%。对于客户端APP类游戏我们提供的是200个类，微端类APP游戏我们提供40个类。通过最近提审的情况看，这个量还不够，需要各扩大一倍，客户端类游戏提供400个类，微端类提供80个类。（ps. 某合作方提供的类401个）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;##### 游戏资源（场景+美术）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;对于游戏资源和垃圾代码类似，某合作方的做法是加入了 600 张图片作为垃圾图片资源（其实就是后缀为png的文件，打不开的）。每次都把图片的hash值改掉，这样就可以达到每次都是不重复的图片资源的效果。修改hash可以借鉴他们提供的一个工具，Windows版的。&lt;/p&gt;
+
+&lt;p&gt;游戏界面和场景尽量修改（可能不用易）&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
       <title>Energize、Breakthrough</title>
-      <link>https://sunwenli.github.io/post/2018_fighting/</link>
+      <link>http://localhost:1313/post/2018_fighting/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/post/2018_fighting/</guid>
+      <guid>http://localhost:1313/post/2018_fighting/</guid>
       <description>&lt;p&gt;The main aim of the year 2018 is to Energize、Breakthrough. 😄.&lt;/p&gt;
 
 &lt;h4 id=&#34;2018-赋能-突破&#34;&gt;2018 赋能、突破&lt;/h4&gt;
@@ -29,19 +93,19 @@
     
     <item>
       <title>Php_best_practice_three</title>
-      <link>https://sunwenli.github.io/post/php_best_practice_three/</link>
+      <link>http://localhost:1313/post/php_best_practice_three/</link>
       <pubDate>Tue, 12 Dec 2017 16:22:18 +0800</pubDate>
       
-      <guid>https://sunwenli.github.io/post/php_best_practice_three/</guid>
+      <guid>http://localhost:1313/post/php_best_practice_three/</guid>
       <description>&lt;p&gt;This article is mainly talk about Email Class of CoderIgniter ,these days study CI during happiness and peniful. 😄.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>macOS PHP best practice (two)</title>
-      <link>https://sunwenli.github.io/post/php_best_practice_two/</link>
+      <link>http://localhost:1313/post/php_best_practice_two/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/post/php_best_practice_two/</guid>
+      <guid>http://localhost:1313/post/php_best_practice_two/</guid>
       <description>&lt;p&gt;This article is mine recent days work summary. 😄.&lt;/p&gt;
 
 &lt;p&gt;距离上一次写博客有2个月了，与其说博客，倒可以把这看作一周的工作的总结 😂。闲言少叙，开工。&lt;/p&gt;
@@ -73,10 +137,10 @@
     
     <item>
       <title>macOS PHP best practice (one)</title>
-      <link>https://sunwenli.github.io/post/php_best_practice_one/</link>
+      <link>http://localhost:1313/post/php_best_practice_one/</link>
       <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/post/php_best_practice_one/</guid>
+      <guid>http://localhost:1313/post/php_best_practice_one/</guid>
       <description>&lt;p&gt;This article show us how to use mac own local web sever apache to build our own static website. ​😄​.&lt;/p&gt;
 
 &lt;h4 id=&#34;macos-php-best-practice-one&#34;&gt;macOS PHP best practice (one)&lt;/h4&gt;
@@ -187,10 +251,10 @@
     
     <item>
       <title>Getting sssssstarted with the Academic framework for Hugo</title>
-      <link>https://sunwenli.github.io/post/getting-started/</link>
+      <link>http://localhost:1313/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/post/getting-started/</guid>
+      <guid>http://localhost:1313/post/getting-started/</guid>
       <description>
 
 &lt;p&gt;The Academic framework enables you to easily create a beautifully simple personal or academic website using the &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; static site generator.&lt;/p&gt;
@@ -201,7 +265,7 @@
 &lt;li&gt;Easily manage your homepage, blog posts, publications, talks, and projects&lt;/li&gt;
 &lt;li&gt;Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact&lt;/li&gt;
 &lt;li&gt;Need a different section? Just use the Custom widget!&lt;/li&gt;
-&lt;li&gt;Write in &lt;a href=&#34;https://sunwenli.github.io/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
+&lt;li&gt;Write in &lt;a href=&#34;http://localhost:1313/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
 &lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
 &lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
 &lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
@@ -265,15 +329,15 @@ cd my_website
 
 &lt;h3 id=&#34;customize-the-homepage&#34;&gt;Customize the homepage&lt;/h3&gt;
 
-&lt;p&gt;Refer to our guide on using &lt;a href=&#34;https://sunwenli.github.io/post/widgets/&#34; target=&#34;_blank&#34;&gt;widgets&lt;/a&gt; to customize your homepage.&lt;/p&gt;
+&lt;p&gt;Refer to our guide on using &lt;a href=&#34;http://localhost:1313/post/widgets/&#34; target=&#34;_blank&#34;&gt;widgets&lt;/a&gt; to customize your homepage.&lt;/p&gt;
 
 &lt;h3 id=&#34;add-your-content&#34;&gt;Add your content&lt;/h3&gt;
 
-&lt;p&gt;Refer to our guide on &lt;a href=&#34;https://sunwenli.github.io/post/managing-content/&#34; target=&#34;_blank&#34;&gt;managing content&lt;/a&gt; to create your own publications, blog posts, talks, and projects.&lt;/p&gt;
+&lt;p&gt;Refer to our guide on &lt;a href=&#34;http://localhost:1313/post/managing-content/&#34; target=&#34;_blank&#34;&gt;managing content&lt;/a&gt; to create your own publications, blog posts, talks, and projects.&lt;/p&gt;
 
 &lt;h3 id=&#34;remove-unused-widgets-and-pages&#34;&gt;Remove unused widgets and pages&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://sunwenli.github.io/post/managing-content/#removing-content&#34; target=&#34;_blank&#34;&gt;How to remove unused widgets and content pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/post/managing-content/#removing-content&#34; target=&#34;_blank&#34;&gt;How to remove unused widgets and content pages&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;customization-upgrading&#34;&gt;Customization &amp;amp; Upgrading&lt;/h3&gt;
 
@@ -377,10 +441,10 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     
     <item>
       <title>Customizing the homepage with widgets</title>
-      <link>https://sunwenli.github.io/post/widgets/</link>
+      <link>http://localhost:1313/post/widgets/</link>
       <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/post/widgets/</guid>
+      <guid>http://localhost:1313/post/widgets/</guid>
       <description>
 
 &lt;p&gt;Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:&lt;/p&gt;
@@ -443,15 +507,15 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
     
     <item>
       <title>Managing content</title>
-      <link>https://sunwenli.github.io/post/managing-content/</link>
+      <link>http://localhost:1313/post/managing-content/</link>
       <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/post/managing-content/</guid>
-      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;https://sunwenli.github.io/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
+      <guid>http://localhost:1313/post/managing-content/</guid>
+      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;http://localhost:1313/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;To enable LaTeX math rendering for a page, you should include &lt;code&gt;math = true&lt;/code&gt; in the page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble, as demonstrated in the included example site. Otherwise, to enable math on the homepage or for all pages, you must globally set &lt;code&gt;math = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;To disable source code highlighting by default for all pages, set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. You can then enable source code highlighting only on pages that need it by setting &lt;code&gt;highlight = true&lt;/code&gt; in that page&amp;rsquo;s preamble. See the &lt;a href=&#34;https://sunwenli.github.io/post/writing-markdown-latex/#code-highlighting&#34; target=&#34;_blank&#34;&gt;code-highlighting docs&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;p&gt;To disable source code highlighting by default for all pages, set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. You can then enable source code highlighting only on pages that need it by setting &lt;code&gt;highlight = true&lt;/code&gt; in that page&amp;rsquo;s preamble. See the &lt;a href=&#34;http://localhost:1313/post/writing-markdown-latex/#code-highlighting&#34; target=&#34;_blank&#34;&gt;code-highlighting docs&lt;/a&gt; for more details.&lt;/p&gt;
 
 &lt;p&gt;To display a featured image in content page headers, the parameters below can be inserted towards the end of a page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble. It is assumed that the image is located in your &lt;code&gt;static/img/&lt;/code&gt; folder, so the full path in the example below will be &lt;code&gt;static/img/headers/getting-started.png&lt;/code&gt;. The &lt;code&gt;caption&lt;/code&gt; parameter can be used to write an image caption or credit.&lt;/p&gt;
 
@@ -590,10 +654,10 @@ Below is an automatically generated list of all my blog posts!
     
     <item>
       <title>Writing content with Markdown, LaTeX, and Shortcodes</title>
-      <link>https://sunwenli.github.io/post/writing-markdown-latex/</link>
+      <link>http://localhost:1313/post/writing-markdown-latex/</link>
       <pubDate>Wed, 20 Apr 2016 10:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/post/writing-markdown-latex/</guid>
+      <guid>http://localhost:1313/post/writing-markdown-latex/</guid>
       <description>&lt;p&gt;Content can be written using &lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt;, &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt;, and &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34; target=&#34;_blank&#34;&gt;Hugo Shortcodes&lt;/a&gt;. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.&lt;/p&gt;
 
 &lt;h2 id=&#34;sub-headings&#34;&gt;Sub-headings&lt;/h2&gt;
@@ -796,7 +860,7 @@ print(&amp;quot;You entered: {}&amp;quot;.format(input_string_var))
 
 &lt;p&gt;If the &lt;code&gt;highlight_languages&lt;/code&gt; option is set, then the corresponding javascript files will be served from the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs server&lt;/a&gt;. To see a list of available languages, visit the &lt;a href=&#34;https://cdnjs.com/libraries/highlight.js/&#34; target=&#34;_blank&#34;&gt;cdnjs page&lt;/a&gt; and search for links with the word &amp;ldquo;languages&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; option provides an easy and convenient way to include support for additional languages to be severed from a CDN. If serving unmodified files from cdnjs doesn&amp;rsquo;t meet your needs, you can include javascript files for additional language support via one of the methods described in the &lt;a href=&#34;https://sunwenli.github.io/post/getting-started/#third-party-and-local-scripts-js&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;highlight_languages&lt;/code&gt; option provides an easy and convenient way to include support for additional languages to be severed from a CDN. If serving unmodified files from cdnjs doesn&amp;rsquo;t meet your needs, you can include javascript files for additional language support via one of the methods described in the &lt;a href=&#34;http://localhost:1313/post/getting-started/#third-party-and-local-scripts-js&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&#34;option-highlight-style&#34;&gt;Option &lt;code&gt;highlight_style&lt;/code&gt;&lt;/h4&gt;
 
@@ -942,13 +1006,13 @@ Here&#39;s some important information...
     
     <item>
       <title>Migrate from Jekyll to Hugo</title>
-      <link>https://sunwenli.github.io/post/migrate-from-jekyll/</link>
+      <link>http://localhost:1313/post/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/post/migrate-from-jekyll/</guid>
+      <guid>http://localhost:1313/post/migrate-from-jekyll/</guid>
       <description>
 
-&lt;p&gt;Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s &lt;a href=&#34;https://sunwenli.github.io/post/getting-started/&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic&amp;rsquo;s &lt;a href=&#34;http://localhost:1313/post/getting-started/&#34; target=&#34;_blank&#34;&gt;getting started guide&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
 

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>加油 on 人未尽,杯莫停</title>
-    <link>https://sunwenli.github.io/zh/tags/%E5%8A%A0%E6%B2%B9/</link>
+    <link>http://localhost:1313/zh/tags/%E5%8A%A0%E6%B2%B9/</link>
     <description>Recent content in 加油 on 人未尽,杯莫停</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>赋能、突破</title>
-      <link>https://sunwenli.github.io/zh/post/2018_fighting/</link>
+      <link>http://localhost:1313/zh/post/2018_fighting/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/zh/post/2018_fighting/</guid>
+      <guid>http://localhost:1313/zh/post/2018_fighting/</guid>
       <description>&lt;p&gt;2018年的小目标 —— 赋能、突破。😄.&lt;/p&gt;
 
 &lt;h4 id=&#34;2018-赋能-突破&#34;&gt;2018 赋能、突破&lt;/h4&gt;

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.27.1" />
+  <meta name="author" content="孙文礼">
+  <meta name="description" content="iOS &amp; macOS 开发者">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  
+
+  <link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="人未尽,杯莫停">
+  <link rel="feed" href="http://localhost:1313/index.xml" type="application/rss+xml" title="人未尽,杯莫停">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="http://localhost:1313/zh/post/2018_0510/">
+
+  
+
+  <title>iOS马甲包如何避免苹果审核4.3打回 | 人未尽,杯莫停</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">切换导航</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/zh/">人未尽,杯莫停</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#about">
+            
+            <span>主页</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#posts">
+            
+            <span>文章</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#projects">
+            
+            <span>项目</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#music">
+            
+            <span>音乐盒</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#tags">
+            
+            <span>标签</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/zh/#contact">
+            
+            <span>联系</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+            <span>中文 (简体)</span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/post/2018_0510/">
+                <span>English</span>
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">iOS马甲包如何避免苹果审核4.3打回</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2018-05-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Thu, May 10, 2018
+    </time>
+  </span>
+
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/zh/tags/ios">iOS</a
+    >, 
+    
+    <a href="/zh/tags/%e9%a9%ac%e7%94%b2%e5%8c%85">马甲包</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fzh%2fpost%2f2018_0510%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=iOS%e9%a9%ac%e7%94%b2%e5%8c%85%e5%a6%82%e4%bd%95%e9%81%bf%e5%85%8d%e8%8b%b9%e6%9e%9c%e5%ae%a1%e6%a0%b84.3%e6%89%93%e5%9b%9e&amp;url=http%3a%2f%2flocalhost%3a1313%2fzh%2fpost%2f2018_0510%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fzh%2fpost%2f2018_0510%2f&amp;title=iOS%e9%a9%ac%e7%94%b2%e5%8c%85%e5%a6%82%e4%bd%95%e9%81%bf%e5%85%8d%e8%8b%b9%e6%9e%9c%e5%ae%a1%e6%a0%b84.3%e6%89%93%e5%9b%9e"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2flocalhost%3a1313%2fzh%2fpost%2f2018_0510%2f&amp;title=iOS%e9%a9%ac%e7%94%b2%e5%8c%85%e5%a6%82%e4%bd%95%e9%81%bf%e5%85%8d%e8%8b%b9%e6%9e%9c%e5%ae%a1%e6%a0%b84.3%e6%89%93%e5%9b%9e"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=iOS%e9%a9%ac%e7%94%b2%e5%8c%85%e5%a6%82%e4%bd%95%e9%81%bf%e5%85%8d%e8%8b%b9%e6%9e%9c%e5%ae%a1%e6%a0%b84.3%e6%89%93%e5%9b%9e&amp;body=http%3a%2f%2flocalhost%3a1313%2fzh%2fpost%2f2018_0510%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      <p>iOS马甲包如何避免苹果审核4.3打回</p>
+
+<h3 id="ios马甲包如何避免苹果审核4-3打回">iOS马甲包如何避免苹果审核4.3打回</h3>
+
+<h4 id="什么是4-3-为什么打回">什么是4.3，为什么打回</h4>
+
+<p>开发者提交审核的APP被苹果审核为重复应用（苹果开发指南4.3条款），不允许上架，严重者会被封开发者账号。</p>
+
+<h4 id="苹果审核机制">苹果审核机制</h4>
+
+<p>iOS包提交给苹果审核后，苹果那边会有 <strong>机审</strong> 和 <strong>人工审核</strong> 两种方式。</p>
+
+<ul>
+<li>机审
+
+<ul>
+<li>主要审核下包体力的二进制文件，这个过程中如果发现包体二进制相似度过高，回直接被4.3打回，不会进入人工审核流程。</li>
+</ul></li>
+<li>人工审核
+
+<ul>
+<li>走到这个流程是通过了机审，此时审核人员会用提审时开发者提供的游戏账号登录进游戏进行试玩，如果审核人员发现登录界面，游戏场景，美术UI相似度过高，仍然有可能会被4.3打回。</li>
+</ul></li>
+</ul>
+
+<h4 id="如何避免4-3">如何避免4.3</h4>
+
+<p>方法有三，同时使用效果更佳：</p>
+
+<ol>
+<li>##### 使用不同的电脑+IP，出证书，打包</li>
+</ol>
+
+<blockquote>
+<p>通过和苹果内部人员沟通了解到公司的IP已经被苹果列入重点审核名单，使用公司网络出的证书+打包都很容易被苹果审核为重复应用4.3打回。</p>
+</blockquote>
+
+<p><strong>应对策略就是使用 4G网络出证书，打包设备也连接4G网络。</strong></p>
+
+<ol>
+<li>##### 垃圾代码</li>
+</ol>
+
+<blockquote>
+<p>关于垃圾代码有一个量的把握，一个包应该加多少垃圾代码，之前调研的数量是总代码量的30%。对于客户端APP类游戏我们提供的是200个类，微端类APP游戏我们提供40个类。通过最近提审的情况看，这个量还不够，需要各扩大一倍，客户端类游戏提供400个类，微端类提供80个类。（ps. 某合作方提供的类401个）</p>
+</blockquote>
+
+<ol>
+<li>##### 游戏资源（场景+美术）</li>
+</ol>
+
+<blockquote>
+<p>对于游戏资源和垃圾代码类似，某合作方的做法是加入了 600 张图片作为垃圾图片资源（其实就是后缀为png的文件，打不开的）。每次都把图片的hash值改掉，这样就可以达到每次都是不重复的图片资源的效果。修改hash可以借鉴他们提供的一个工具，Windows版的。</p>
+
+<p>游戏界面和场景尽量修改（可能不用易）</p>
+</blockquote>
+    </div>
+  </div>
+
+</article>
+
+
+
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="http://localhost:1313/zh/post/2018_fighting/"><span
+      aria-hidden="true">&larr;</span> 赋能、突破</a></li>
+    
+
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 孙文礼 &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.pkgd.min.js" integrity="sha512-iHzEu7GbSc705hE2skyH6/AlTpOfBmkx7nUqTLGzPYR+C1tRaItbRlJ7hT/D3YQ9SV0fqLKzp4XY9wKulTBGTw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js" integrity="sha512-Z5heTz36xTemt1TbtbfXtTq5lMfYnOkXM2/eWcTTiLU01+Sw4ku1i7vScDc8fWhrP2abz9GQzgKH5NGBLoYlAw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js" integrity="sha512-CDeU7pRtkPX6XJtF/gcFWlEwyaX7mcAp5sO3VIu/ylsdR74wEw4wmBpD5yYTrmMAiAboi9thyBUr1vXRPA7t0Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/go.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/lisp.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/ocaml.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  <script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
+</html>
+

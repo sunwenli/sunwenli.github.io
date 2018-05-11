@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Just Do it</title>
-    <link>https://sunwenli.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Just Do it</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,83 +12,101 @@
     
     <item>
       <title>Content tagged as &#39;Academic&#39;</title>
-      <link>https://sunwenli.github.io/tags/academic/</link>
+      <link>http://localhost:1313/tags/academic/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/tags/academic/</guid>
+      <guid>http://localhost:1313/tags/academic/</guid>
       <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Ci</title>
-      <link>https://sunwenli.github.io/tags/ci/</link>
+      <link>http://localhost:1313/tags/ci/</link>
       <pubDate>Tue, 12 Dec 2017 16:22:18 +0800</pubDate>
       
-      <guid>https://sunwenli.github.io/tags/ci/</guid>
+      <guid>http://localhost:1313/tags/ci/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep Learning</title>
-      <link>https://sunwenli.github.io/tags/deep-learning/</link>
+      <link>http://localhost:1313/tags/deep-learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/tags/deep-learning/</guid>
+      <guid>http://localhost:1313/tags/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demo</title>
-      <link>https://sunwenli.github.io/tags/demo/</link>
+      <link>http://localhost:1313/tags/demo/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/tags/demo/</guid>
+      <guid>http://localhost:1313/tags/demo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fighting</title>
-      <link>https://sunwenli.github.io/tags/fighting/</link>
+      <link>http://localhost:1313/tags/fighting/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/tags/fighting/</guid>
+      <guid>http://localhost:1313/tags/fighting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://sunwenli.github.io/tags/hugo/</link>
+      <link>http://localhost:1313/tags/hugo/</link>
       <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/tags/hugo/</guid>
+      <guid>http://localhost:1313/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ios</title>
+      <link>http://localhost:1313/tags/ios/</link>
+      <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ios/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jekyll</title>
-      <link>https://sunwenli.github.io/tags/jekyll/</link>
+      <link>http://localhost:1313/tags/jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/tags/jekyll/</guid>
+      <guid>http://localhost:1313/tags/jekyll/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Php</title>
-      <link>https://sunwenli.github.io/tags/php/</link>
+      <link>http://localhost:1313/tags/php/</link>
       <pubDate>Tue, 12 Dec 2017 16:22:18 +0800</pubDate>
       
-      <guid>https://sunwenli.github.io/tags/php/</guid>
+      <guid>http://localhost:1313/tags/php/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Summary</title>
-      <link>https://sunwenli.github.io/tags/summary/</link>
+      <link>http://localhost:1313/tags/summary/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://sunwenli.github.io/tags/summary/</guid>
+      <guid>http://localhost:1313/tags/summary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>马甲包</title>
+      <link>http://localhost:1313/tags/%E9%A9%AC%E7%94%B2%E5%8C%85/</link>
+      <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E9%A9%AC%E7%94%B2%E5%8C%85/</guid>
       <description></description>
     </item>
     

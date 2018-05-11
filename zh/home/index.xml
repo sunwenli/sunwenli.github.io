@@ -8,7 +8,54 @@
     <language>zh</language>
     <copyright>&amp;copy; 2017 孙文礼</copyright>
     <lastBuildDate>Tue, 26 Sep 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/zh/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://sunwenli.github.io/zh/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://sunwenli.github.io/zh/home/about/</link>
+      <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/zh/home/about/</guid>
+      <description>Biography 孙文礼，一位 iOS &amp;amp; macOS 开发者，主要开发语言Objective-C，会一些Python，研究过后端php,开发过 Mac 端自动化工具，现在就职于雷尚（北京）科技有限公司，因为爱玩游戏，所以工作也和游戏相关。负责公司自动化工具开发和维护兼SDK接入。近期在研究web方面的技术，未来想往全栈方向发展。未完待续。</description>
+    </item>
+    
+    <item>
+      <title>最新发布</title>
+      <link>https://sunwenli.github.io/zh/home/posts/</link>
+      <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/zh/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>项目</title>
+      <link>https://sunwenli.github.io/zh/home/projects/</link>
+      <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/zh/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>标签</title>
+      <link>https://sunwenli.github.io/zh/home/tags/</link>
+      <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/zh/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>联系方式</title>
+      <link>https://sunwenli.github.io/zh/home/contact/</link>
+      <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/zh/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -6,9 +6,56 @@
     <description>Recent content in Homes on Just Do it</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2017 Wenli Sun</copyright>
+    <copyright>&amp;copy; 2018 Wenli Sun</copyright>
     <lastBuildDate>Tue, 26 Sep 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://sunwenli.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://sunwenli.github.io/home/about/</link>
+      <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/home/about/</guid>
+      <description>Biography Wenli Sun, an iOS &amp;amp; macOS developer, the main development language Objective-C, sometimes use Python, research back-end php, developed Mac-side automation tools, now working in RayJoy (Beijing) Technology Co., Ltd., So work is also related to the game. Responsible for the development and maintenance of company automation tools and SDK access. Recently in the study of web technology, the future would like to the direction of the whole stack.</description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://sunwenli.github.io/home/posts/</link>
+      <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://sunwenli.github.io/home/projects/</link>
+      <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://sunwenli.github.io/home/tags/</link>
+      <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://sunwenli.github.io/home/contact/</link>
+      <pubDate>Tue, 26 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

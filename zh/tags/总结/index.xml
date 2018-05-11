@@ -8,7 +8,9 @@
     <language>zh</language>
     <copyright>&amp;copy; 2017 孙文礼</copyright>
     <lastBuildDate>Fri, 23 Feb 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/zh/tags/%E6%80%BB%E7%BB%93/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://sunwenli.github.io/zh/tags/%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>赋能、突破</title>
@@ -16,15 +18,7 @@
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://sunwenli.github.io/zh/post/2018_fighting/</guid>
-      <description>&lt;p&gt;2018年的小目标 —— 赋能、突破。😄.&lt;/p&gt;
-
-&lt;h4 id=&#34;2018-赋能-突破&#34;&gt;2018 赋能、突破&lt;/h4&gt;
-
-&lt;p&gt;只有努力才能使自己不被淘汰！&lt;/p&gt;
-
-&lt;p&gt;共勉。&lt;/p&gt;
-
-&lt;p&gt;加油，2018！&lt;/p&gt;</description>
+      <description>&lt;p&gt;2018年的小目标 —— 赋能、突破。😄.&lt;/p&gt;</description>
     </item>
     
   </channel>

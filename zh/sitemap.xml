@@ -173,10 +173,11 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/categories/" hreflang="zh"/>
-      <xhtml:link rel="alternate" href="https://sunwenli.github.io/categories/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/ci/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/ci/" hreflang="en"/>
     
-      <loc>https://sunwenli.github.io/zh/categories/</loc>
+      <loc>https://sunwenli.github.io/zh/tags/ci/</loc>
+      <lastmod>2017-12-12T16:22:18+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -185,11 +186,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/ci/" hreflang="zh"/>
-      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/ci/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/categories/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/categories/" hreflang="en"/>
     
-      <loc>https://sunwenli.github.io/zh/tags/ci/</loc>
-      <lastmod>2017-12-12T16:22:18+08:00</lastmod>
+      <loc>https://sunwenli.github.io/zh/categories/</loc>
       <priority>0</priority>
     </url>
     

@@ -18,7 +18,7 @@
       <guid>https://sunwenli.github.io/post/2019-0424/</guid>
       <description>&lt;p&gt;Qt使用QWebengineView导致花屏和黑屏现象&lt;/p&gt;
 
-&lt;p&gt;最近在搞 Ant Design 的二次开发，需要迁移一个界面到 Qt 开发的 golang 版的桌面程序里。桌面程序加载了一个 QWebengine 创建的 webview, webview 然后去 load 一个 url , 到这里一切还正常。&lt;/p&gt;
+&lt;p&gt;最近在搞 Ant Design 的二次开发，需要迁移一个界面到 Qt(golang) 开发的 Mac 版的桌面程序里。桌面程序加载了一个 QWebengine 创建的 webview, webview 然后去 load 一个 url , 到这里一切还正常。&lt;/p&gt;
 
 &lt;p&gt;每次点击界面里的按钮去和后端进行交互成功后，界面带着后端返回的数据进行重新渲染都会出现组件背景色变黑 （花屏和黑屏现象）。&lt;/p&gt;
 

@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Qt使用QWebengineView导致花屏和黑屏现象</title>
+      <link>https://sunwenli.github.io/zh/post/2019-0424/</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/zh/post/2019-0424/</guid>
+      <description>&lt;p&gt;Qt使用QWebengineView导致花屏和黑屏现象&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>iOS马甲包如何避免苹果审核4.3打回</title>
       <link>https://sunwenli.github.io/zh/post/2018_0510/</link>
       <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>

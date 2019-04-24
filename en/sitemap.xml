@@ -5,6 +5,9 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/2019-0424/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/2019-0424/" hreflang="zh"/>
+    
       <loc>https://sunwenli.github.io/post/2019-0424/</loc>
       <lastmod>2019-04-24T00:00:00+00:00</lastmod>
     </url>
@@ -243,6 +246,9 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/golang/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/golang/" hreflang="zh"/>
+    
       <loc>https://sunwenli.github.io/tags/golang/</loc>
       <lastmod>2019-04-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -343,6 +349,9 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/qwebengineview/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/qwebengineview/" hreflang="zh"/>
+    
       <loc>https://sunwenli.github.io/tags/qwebengineview/</loc>
       <lastmod>2019-04-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -352,6 +361,9 @@
     
     
     <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/qt/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/qt/" hreflang="zh"/>
     
       <loc>https://sunwenli.github.io/tags/qt/</loc>
       <lastmod>2019-04-24T00:00:00+00:00</lastmod>

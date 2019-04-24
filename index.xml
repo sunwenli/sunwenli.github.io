@@ -1075,5 +1075,33 @@ With Jekyll, something that looked like&lt;/p&gt;
 </description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://sunwenli.github.io/post/2019-0424/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/post/2019-0424/</guid>
+      <description>
+
+&lt;h1 id=&#34;qt使用qwebengineview导致花屏和黑屏现象&#34;&gt;Qt使用QWebengineView导致花屏和黑屏现象&lt;/h1&gt;
+
+&lt;p&gt;最近在搞 Ant Design 的二次开发，需要迁移一个界面到 Qt 开发的 golang 版的桌面程序里。桌面程序加载了一个 QWebengine 创建的 webview, webview 然后去 load 一个 url , 到这里一切还正常。&lt;/p&gt;
+
+&lt;p&gt;每次点击界面里的按钮去和后端进行交互成功后，界面带着后端返回的数据进行重新渲染都会出现组件背景色变黑 （花屏和黑屏现象）。&lt;/p&gt;
+
+&lt;p&gt;原因是有些旧机器支持的 OpenGL 驱动版本太低，所以需要使用 SoftwareOpenGL 。&lt;/p&gt;
+
+&lt;p&gt;伪代码：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;qApplication = widgets.NewQApplication(len(os.Args), os.Args)
+qApplication.SetAttribute(core.Qt__AA_UseSoftwareOpenGL, true)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;添加以上代码可以解决问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/Chaosty414/article/details/77885490&#34; target=&#34;_blank&#34;&gt;参考链接&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

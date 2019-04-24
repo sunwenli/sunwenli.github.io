@@ -106,5 +106,14 @@ Key features:
 Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://sunwenli.github.io/post/2019-0424/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/post/2019-0424/</guid>
+      <description>Qt使用QWebengineView导致花屏和黑屏现象 最近在搞 Ant Design 的二次开发，需要迁移一个界面到 Qt 开发的 golang 版的桌面程序里。桌面程序加载了一个</description>
+    </item>
+    
   </channel>
 </rss>

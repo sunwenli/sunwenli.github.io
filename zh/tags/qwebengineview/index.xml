@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>&amp;copy; 2018 孙文礼</copyright>
-    <lastBuildDate>Wed, 24 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sunwenli.github.io/zh/tags/qwebengineview/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何使 QWebengineView 调用 React 的方法</title>
+      <link>https://sunwenli.github.io/zh/post/2019-0515/</link>
+      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/zh/post/2019-0515/</guid>
+      <description>&lt;p&gt;直接使用 golang 版 Qt 中的 QWebengineView  的 &lt;code&gt;RunJavaScript4&lt;/code&gt; 方法不能直接调用到 React 方法 &lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Qt使用QWebengineView导致花屏和黑屏现象</title>

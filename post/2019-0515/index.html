@@ -13,10 +13,16 @@
   
   
   
-  <meta name="description" content="iOS &amp; macOS Developer">
+    
+      
+    
+  
+  <meta name="description" content="QWebengineView of Qt(golang)  use RunJavaScript4 can not call React function successfully !">
 
   
-  <link rel="alternate" hreflang="en-us" href="">
+  <link rel="alternate" hreflang="zh" href="https://sunwenli.github.io/zh/post/2019-0515/">
+  
+  <link rel="alternate" hreflang="en-us" href="https://sunwenli.github.io/post/2019-0515/">
 
   
 
@@ -87,7 +93,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="">
+  <link rel="canonical" href="https://sunwenli.github.io/post/2019-0515/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -95,18 +101,20 @@
   <meta property="twitter:creator" content="@sunwenli1">
   
   <meta property="og:site_name" content="Just Do it">
-  <meta property="og:url" content="">
-  <meta property="og:title" content="404 Page not found | Just Do it">
-  <meta property="og:description" content="iOS &amp; macOS Developer">
+  <meta property="og:url" content="https://sunwenli.github.io/post/2019-0515/">
+  <meta property="og:title" content="How to let QWebengineView call React function | Just Do it">
+  <meta property="og:description" content="QWebengineView of Qt(golang)  use RunJavaScript4 can not call React function successfully !">
   <meta property="og:locale" content="en-us">
   
+  <meta property="article:published_time" content="2019-05-16T00:00:00&#43;00:00">
   
+  <meta property="article:modified_time" content="2019-05-16T00:00:00&#43;00:00">
   
 
   
   
 
-  <title>404 Page not found | Just Do it</title>
+  <title>How to let QWebengineView call React function | Just Do it</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -252,64 +260,212 @@
       
 
       
+      
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+            <span>English</span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="nav-item">
+              <a href="/zh/post/2019-0515/">
+                <span>中文 (简体)</span>
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+        
       </ul>
 
     </div>
   </div>
 </nav>
 
-<div class="container">
 
-  <h1>Page not found</h1>
-  <p>Perhaps you were looking for one of these?</p>
+<article class="article" itemscope itemtype="http://schema.org/Article">
 
   
-  
-  <h2>Posts</h2>
-  
-  <ul>
-    <li><a href="https://sunwenli.github.io/post/2019-0515/">How to let QWebengineView call React function</a></li>
-  </ul>
-  
-  <ul>
-    <li><a href="https://sunwenli.github.io/post/2019-0424/">Qt使用QWebengineView导致花屏和黑屏现象</a></li>
-  </ul>
-  
-  <ul>
-    <li><a href="https://sunwenli.github.io/post/2018_0510/">iOS马甲包如何避免苹果审核4.3打回</a></li>
-  </ul>
-  
-  <ul>
-    <li><a href="https://sunwenli.github.io/post/2018_fighting/">Energize、Breakthrough</a></li>
-  </ul>
-  
-  <ul>
-    <li><a href="https://sunwenli.github.io/post/php_best_practice_three/">Php_best_practice_three</a></li>
-  </ul>
-  
-  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">How to let QWebengineView call React function</h1>
+
+    
+
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2019-05-16 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      May 16, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Wenli Sun">
+  </span>
 
   
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
   
 
   
+
   
 
   
   
-  <h2>Projects</h2>
+<div class="share-box" aria-hidden="true">
   
-  <ul>
-    <li><a href="https://sunwenli.github.io/project/deep-learning/">Deep Learning</a></li>
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=How%20to%20let%20QWebengineView%20call%20React%20function&amp;url=https%3a%2f%2fsunwenli.github.io%2fpost%2f2019-0515%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsunwenli.github.io%2fpost%2f2019-0515%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsunwenli.github.io%2fpost%2f2019-0515%2f&amp;title=How%20to%20let%20QWebengineView%20call%20React%20function"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsunwenli.github.io%2fpost%2f2019-0515%2f&amp;title=How%20to%20let%20QWebengineView%20call%20React%20function"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=How%20to%20let%20QWebengineView%20call%20React%20function&amp;body=https%3a%2f%2fsunwenli.github.io%2fpost%2f2019-0515%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
   </ul>
   
-  <ul>
-    <li><a href="https://sunwenli.github.io/project/example-external-project/">External Project</a></li>
-  </ul>
+</div>
+
+
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="https://sunwenli.github.io/post/2019-0515/#disqus_thread"></a>
   
   
 
 </div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <p>QWebengineView of Qt(golang)  use <code>RunJavaScript4</code> can not call React function successfully !</p>
+
+<p>I solved this problem flow steps below.</p>
+
+<ol>
+<li>in js file, we should export React Class instance to window.</li>
+</ol>
+
+<pre><code>  import xxx;
+  //...
+  window.updateValue = function(url) {
+  	alert(&quot;call ok !&quot;);
+    // if(window.callback != undefined) {
+    //    window.callback.updateValue(url);
+    // }
+  };
+  window.setCallback = function(callback) {
+    window.callback = callback;
+  }
+  //...
+  export default class MyFeedback extends React.Component {
+   //...
+   // key step
+   //  in react life cycle `componentWillMount` set `this` :
+   componentWillMount() {
+         window.setCallback(this);
+   }
+  //...
+  }
+</code></pre>
+
+<ol>
+<li>in go file, we call function like this :</li>
+</ol>
+
+<pre><code>	ap.WebView.Page().RunJavaScript4(&quot;window.updateValue('hello')&quot;)
+</code></pre>
+
+<p>after run project . i see alert <code>call ok!</code></p>
+
+<p>Refer to the link : <a href="https://blog.csdn.net/ZHOUYONGXYZ/article/details/82760929" target="_blank">https://blog.csdn.net/ZHOUYONGXYZ/article/details/82760929</a></p>
+
+<hr />
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="https://sunwenli.github.io/tags/qt/">Qt</a>
+  
+  <a class="btn btn-primary btn-outline" href="https://sunwenli.github.io/tags/golang/">golang</a>
+  
+  <a class="btn btn-primary btn-outline" href="https://sunwenli.github.io/tags/qwebengineview/">QWebengineView</a>
+  
+  <a class="btn btn-primary btn-outline" href="https://sunwenli.github.io/tags/react/">React</a>
+  
+</div>
+
+
+
+
+    
+    
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>Related</h3>
+      <ul>
+        
+        <li><a href="/post/2019-0424/">Qt使用QWebengineView导致花屏和黑屏现象</a></li>
+        
+      </ul>
+    </div>
+    
+
+    
+
+    
+<section id="comments">
+  
+  
+  
+  <div id="SOHUCS" sid="请将此处替换为配置SourceID的语句"></div>
+</section>
+
+
+
+  </div>
+</article>
+
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">

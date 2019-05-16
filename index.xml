@@ -11,6 +11,57 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>How to let QWebengineView call React function</title>
+      <link>https://sunwenli.github.io/post/2019-0515/</link>
+      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/post/2019-0515/</guid>
+      <description>&lt;p&gt;QWebengineView of Qt(golang)  use &lt;code&gt;RunJavaScript4&lt;/code&gt; can not call React function successfully !&lt;/p&gt;
+
+&lt;p&gt;I solved this problem flow steps below.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;in js file, we should export React Class instance to window.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;  import xxx;
+  //...
+  window.updateValue = function(url) {
+  	alert(&amp;quot;call ok !&amp;quot;);
+    // if(window.callback != undefined) {
+    //    window.callback.updateValue(url);
+    // }
+  };
+  window.setCallback = function(callback) {
+    window.callback = callback;
+  }
+  //...
+  export default class MyFeedback extends React.Component {
+   //...
+   // key step
+   //  in react life cycle `componentWillMount` set `this` :
+   componentWillMount() {
+         window.setCallback(this);
+   }
+  //...
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;in go file, we call function like this :&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;	ap.WebView.Page().RunJavaScript4(&amp;quot;window.updateValue(&#39;hello&#39;)&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;after run project . i see alert &lt;code&gt;call ok!&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Refer to the link : &lt;a href=&#34;https://blog.csdn.net/ZHOUYONGXYZ/article/details/82760929&#34; target=&#34;_blank&#34;&gt;https://blog.csdn.net/ZHOUYONGXYZ/article/details/82760929&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;</description>
+    </item>
+    
+    <item>
       <title>Qt使用QWebengineView导致花屏和黑屏现象</title>
       <link>https://sunwenli.github.io/post/2019-0424/</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>

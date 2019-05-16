@@ -5,6 +5,18 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/2019-0515/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/2019-0515/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/post/2019-0515/</loc>
+      <lastmod>2019-05-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/2019-0424/" hreflang="zh"/>
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/2019-0424/" hreflang="en"/>
     
@@ -185,6 +197,9 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/bug/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/bug/" hreflang="en"/>
+    
       <loc>https://sunwenli.github.io/zh/tags/bug/</loc>
       <lastmod>2019-04-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -250,7 +265,7 @@
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/golang/" hreflang="en"/>
     
       <loc>https://sunwenli.github.io/zh/tags/golang/</loc>
-      <lastmod>2019-04-24T00:00:00+00:00</lastmod>
+      <lastmod>2019-05-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -340,7 +355,7 @@
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/qwebengineview/" hreflang="en"/>
     
       <loc>https://sunwenli.github.io/zh/tags/qwebengineview/</loc>
-      <lastmod>2019-04-24T00:00:00+00:00</lastmod>
+      <lastmod>2019-05-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -353,7 +368,20 @@
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/qt/" hreflang="en"/>
     
       <loc>https://sunwenli.github.io/zh/tags/qt/</loc>
-      <lastmod>2019-04-24T00:00:00+00:00</lastmod>
+      <lastmod>2019-05-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/react/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/react/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/tags/react/</loc>
+      <lastmod>2019-05-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

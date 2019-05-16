@@ -11,6 +11,57 @@
     <atom:link href="/zh/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>如何使 QWebengineView 调用 React 的方法</title>
+      <link>https://sunwenli.github.io/zh/post/2019-0515/</link>
+      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/zh/post/2019-0515/</guid>
+      <description>&lt;p&gt;直接使用 golang 版 Qt 中的 QWebengineView  的 &lt;code&gt;RunJavaScript4&lt;/code&gt; 方法不能直接调用到 React 方法 &lt;/p&gt;
+
+&lt;p&gt;按照以下步骤可以解决问题。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;在 js 文件里, 需要把 React 的类实例暴露给 window ，代码如下：&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;  import xxx;
+  //...
+  window.updateValue = function(url) {
+  	alert(&amp;quot;call ok !&amp;quot;);
+    // if(window.callback != undefined) {
+    //    window.callback.updateValue(url);
+    // }
+  };
+  window.setCallback = function(callback) {
+    window.callback = callback;
+  }
+  //...
+  export default class MyFeedback extends React.Component {
+   //...
+   // key step
+   //  in react life cycle `componentWillMount` set `this` :
+   componentWillMount() {
+         window.setCallback(this);
+   }
+  //...
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+&lt;li&gt;在 go 文件里, 我们可以这样调用方法 :&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;	ap.WebView.Page().RunJavaScript4(&amp;quot;window.updateValue(&#39;hello&#39;)&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;编译运行项目 ，就可以看到输出 &lt;code&gt;call ok!&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;参考链接 : &lt;a href=&#34;https://blog.csdn.net/ZHOUYONGXYZ/article/details/82760929&#34; target=&#34;_blank&#34;&gt;https://blog.csdn.net/ZHOUYONGXYZ/article/details/82760929&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;</description>
+    </item>
+    
+    <item>
       <title>Qt使用QWebengineView导致花屏和黑屏现象</title>
       <link>https://sunwenli.github.io/zh/post/2019-0424/</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>

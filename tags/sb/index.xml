@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SB on Just Do it</title>
+    <link>https://sunwenli.github.io/tags/sb/</link>
+    <description>Recent content in SB on Just Do it</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Wenli Sun</copyright>
+    <lastBuildDate>Sun, 09 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sunwenli.github.io/tags/sb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Silly force</title>
+      <link>https://sunwenli.github.io/post/2019-0609/</link>
+      <pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/post/2019-0609/</guid>
+      <description>I am a fucking Silly force .</description>
+    </item>
+    
+  </channel>
+</rss>

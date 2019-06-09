@@ -5,6 +5,18 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/2019-0609/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/2019-0609/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/post/2019-0609/</loc>
+      <lastmod>2019-06-09T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/2019-0515/" hreflang="zh"/>
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/2019-0515/" hreflang="en"/>
     
@@ -421,6 +433,16 @@
     
       <loc>https://sunwenli.github.io/zh/</loc>
       <lastmod>2017-09-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://sunwenli.github.io/zh/tags/%E5%82%BB%E9%80%BC/</loc>
+      <lastmod>2019-06-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

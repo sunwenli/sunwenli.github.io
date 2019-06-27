@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -16,9 +18,9 @@
   <meta name="description" content="iOS &amp; macOS Developer">
 
   
-  <link rel="alternate" hreflang="zh" href="https://sunwenli.github.io/zh/post/">
+  <link rel="alternate" hreflang="zh" href="https://sunwenli.github.io/zh/tags/beego/">
   
-  <link rel="alternate" hreflang="en-us" href="https://sunwenli.github.io/post/">
+  <link rel="alternate" hreflang="en-us" href="https://sunwenli.github.io/tags/beego/">
 
   
 
@@ -34,6 +36,13 @@
   
     
   
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
   
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
@@ -74,15 +83,15 @@
   
 
   
-  <link rel="alternate" href="https://sunwenli.github.io/post/index.xml" type="application/rss+xml" title="Just Do it">
-  <link rel="feed" href="https://sunwenli.github.io/post/index.xml" type="application/rss+xml" title="Just Do it">
+  <link rel="alternate" href="https://sunwenli.github.io/tags/beego/index.xml" type="application/rss+xml" title="Just Do it">
+  <link rel="feed" href="https://sunwenli.github.io/tags/beego/index.xml" type="application/rss+xml" title="Just Do it">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://sunwenli.github.io/post/">
+  <link rel="canonical" href="https://sunwenli.github.io/tags/beego/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -90,18 +99,18 @@
   <meta property="twitter:creator" content="@sunwenli1">
   
   <meta property="og:site_name" content="Just Do it">
-  <meta property="og:url" content="https://sunwenli.github.io/post/">
-  <meta property="og:title" content="Posts | Just Do it">
+  <meta property="og:url" content="https://sunwenli.github.io/tags/beego/">
+  <meta property="og:title" content="Beego | Just Do it">
   <meta property="og:description" content="iOS &amp; macOS Developer">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2016-04-20T11:00:00&#43;00:00">
+  <meta property="og:updated_time" content="2019-06-27T00:00:00&#43;00:00">
   
 
   
   
 
-  <title>Posts | Just Do it</title>
+  <title>Beego | Just Do it</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -256,7 +265,7 @@
           <ul class="dropdown-menu">
             
             <li class="nav-item">
-              <a href="/zh/post/">
+              <a href="/zh/tags/beego/">
                 <span>中文 (简体)</span>
               </a>
             </li>
@@ -276,271 +285,26 @@
 
 <div class="universal-wrapper">
 
-  <h1>Posts</h1>
+  <h1>Beego</h1>
 
   
 
   
   
-    
-    
+  <div>
+    <h2><a href="https://sunwenli.github.io/post/2019-0627/">bug of beego unit test </a></h2>
+    <div class="article-style">
       
-
-<div class="card-simple" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
-  
-
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    
-    <time datetime="2016-04-20 11:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
-      Apr 20, 2016
-    </time>
-  </span>
-  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Wenli Sun">
-  </span>
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    3 min read
-  </span>
-  
-
-  
-
-  
-
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <a href="https://sunwenli.github.io/post/widgets/#disqus_thread"></a>
-  
-  
-
-</div>
-
-
-  
-  
-  <h3 class="article-title" itemprop="headline">
-    <a href="https://sunwenli.github.io/post/widgets/" itemprop="url">Customizing the homepage with widgets</a>
-  </h3>
-  <div class="article-style" itemprop="articleBody">
-    
-    <p>Enable/disable and configure widgets to customize your homepage.</p>
-    
-  </div>
-  <p class="read-more" itemprop="mainEntityOfPage">
-    <a href="https://sunwenli.github.io/post/widgets/" class="btn btn-primary btn-outline">
-      CONTINUE READING
-    </a>
-  </p>
-</div>
-
-    
-  
-    
-    
+      During write unit test with beego , source code contains beego.AppConfig.GetSection() appear the bug .
+I can not right get the config. code in project like this
+cfgs, err := beego.AppConfig.GetSection(&quot;test_conf&quot;) if err != nil { panic(err) }  panic outputs: not implement in the fakeConfigContainer
+beego&rsquo;s author reply in github that is a bug and already fixed in new version, but i got this problem still now with version 1.
       
-
-<div class="card-simple" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
-  
-
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    
-    <time datetime="2016-04-20 11:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
-      Apr 20, 2016
-    </time>
-  </span>
-  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Wenli Sun">
-  </span>
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    6 min read
-  </span>
-  
-
-  
-
-  
-
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <a href="https://sunwenli.github.io/post/managing-content/#disqus_thread"></a>
-  
-  
-
-</div>
-
-
-  
-  
-  <h3 class="article-title" itemprop="headline">
-    <a href="https://sunwenli.github.io/post/managing-content/" itemprop="url">Managing content</a>
-  </h3>
-  <div class="article-style" itemprop="articleBody">
-    
-    <p>This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about <a href="https://sunwenli.github.io/post/writing-markdown-latex/" target="_blank">writing content with Markdown, LaTeX, and Shortcodes</a>.</p>
-    
+    </div>
   </div>
-  <p class="read-more" itemprop="mainEntityOfPage">
-    <a href="https://sunwenli.github.io/post/managing-content/" class="btn btn-primary btn-outline">
-      CONTINUE READING
-    </a>
-  </p>
-</div>
-
-    
-  
-    
-    
-      
-
-<div class="card-simple" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
-  
-
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    
-    <time datetime="2016-04-20 10:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
-      Apr 20, 2016
-    </time>
-  </span>
-  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Wenli Sun">
-  </span>
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    6 min read
-  </span>
   
 
   
-
-  
-
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <a href="https://sunwenli.github.io/post/writing-markdown-latex/#disqus_thread"></a>
-  
-  
-
-</div>
-
-
-  
-  
-  <h3 class="article-title" itemprop="headline">
-    <a href="https://sunwenli.github.io/post/writing-markdown-latex/" itemprop="url">Writing content with Markdown, LaTeX, and Shortcodes</a>
-  </h3>
-  <div class="article-style" itemprop="articleBody">
-    
-    <p>Content can be written using <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown</a>, <a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank">LaTeX math</a>, and <a href="http://gohugo.io/extras/shortcodes/" target="_blank">Hugo Shortcodes</a>. Additionally, HTML may be used for advanced formatting. This article gives an overview of the most common formatting options.</p>
-    
-  </div>
-  <p class="read-more" itemprop="mainEntityOfPage">
-    <a href="https://sunwenli.github.io/post/writing-markdown-latex/" class="btn btn-primary btn-outline">
-      CONTINUE READING
-    </a>
-  </p>
-</div>
-
-    
-  
-    
-    
-      
-
-<div class="card-simple" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
-  
-
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    
-    <time datetime="2014-03-10 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
-      Mar 10, 2014
-    </time>
-  </span>
-  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Wenli Sun">
-  </span>
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    2 min read
-  </span>
-  
-
-  
-
-  
-
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <a href="https://sunwenli.github.io/post/migrate-from-jekyll/#disqus_thread"></a>
-  
-  
-
-</div>
-
-
-  
-  
-  <h3 class="article-title" itemprop="headline">
-    <a href="https://sunwenli.github.io/post/migrate-from-jekyll/" itemprop="url">Migrate from Jekyll to Hugo</a>
-  </h3>
-  <div class="article-style" itemprop="articleBody">
-    
-    <p>Learn how to migrate an existing website from Jekyll to Hugo.</p>
-    
-  </div>
-  <p class="read-more" itemprop="mainEntityOfPage">
-    <a href="https://sunwenli.github.io/post/migrate-from-jekyll/" class="btn btn-primary btn-outline">
-      CONTINUE READING
-    </a>
-  </p>
-</div>
-
-    
-  
-
-  
-<nav>
-  <ul class="pager">
-    
-    <li><a href="/post/">&lt;</a></li>
-    
-    
-  </ul>
-</nav>
-
 
 
 </div>
@@ -614,10 +378,29 @@
 
     
     
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/lisp.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/ocaml.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
 
     
     
 
   </body>
 </html>
+
+
 

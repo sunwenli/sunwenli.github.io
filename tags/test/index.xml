@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on Just Do it</title>
+    <link>https://sunwenli.github.io/tags/test/</link>
+    <description>Recent content in Test on Just Do it</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Wenli Sun</copyright>
+    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sunwenli.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>bug of beego unit test </title>
+      <link>https://sunwenli.github.io/post/2019-0627/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/post/2019-0627/</guid>
+      <description>During write unit test with beego , source code contains beego.AppConfig.GetSection() appear the bug .
+I can not right get the config. code in project like this
+cfgs, err := beego.AppConfig.GetSection(&amp;quot;test_conf&amp;quot;) if err != nil { panic(err) }  panic outputs: not implement in the fakeConfigContainer
+beego&amp;rsquo;s author reply in github that is a bug and already fixed in new version, but i got this problem still now with version 1.</description>
+    </item>
+    
+  </channel>
+</rss>

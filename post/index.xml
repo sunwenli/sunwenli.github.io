@@ -13,6 +13,18 @@
     
     
     <item>
+      <title>bug of beego unit test </title>
+      <link>https://sunwenli.github.io/post/2019-0627/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/post/2019-0627/</guid>
+      <description>During write unit test with beego , source code contains beego.AppConfig.GetSection() appear the bug .
+I can not right get the config. code in project like this
+cfgs, err := beego.AppConfig.GetSection(&amp;quot;test_conf&amp;quot;) if err != nil { panic(err) }  panic outputs: not implement in the fakeConfigContainer
+beego&amp;rsquo;s author reply in github that is a bug and already fixed in new version, but i got this problem still now with version 1.</description>
+    </item>
+    
+    <item>
       <title>Silly force</title>
       <link>https://sunwenli.github.io/post/2019-0609/</link>
       <pubDate>Sun, 09 Jun 2019 00:00:00 +0000</pubDate>

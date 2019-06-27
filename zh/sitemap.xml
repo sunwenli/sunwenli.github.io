@@ -5,6 +5,18 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/2019-0627/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/2019-0627/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/post/2019-0627/</loc>
+      <lastmod>2019-06-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/2019-0609/" hreflang="zh"/>
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/2019-0609/" hreflang="en"/>
     
@@ -202,6 +214,19 @@
     
       <loc>https://sunwenli.github.io/zh/post/migrate-from-jekyll/</loc>
       <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/beego/" hreflang="zh"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/beego/" hreflang="en"/>
+    
+      <loc>https://sunwenli.github.io/zh/tags/beego/</loc>
+      <lastmod>2019-06-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -453,6 +478,16 @@
     
       <loc>https://sunwenli.github.io/zh/tags/%E5%8A%A0%E6%B2%B9/</loc>
       <lastmod>2018-02-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://sunwenli.github.io/zh/tags/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</loc>
+      <lastmod>2019-06-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

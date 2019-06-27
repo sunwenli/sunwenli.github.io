@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>单元测试 on 人未尽,杯莫停</title>
+    <link>https://sunwenli.github.io/zh/tags/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/</link>
+    <description>Recent content in 单元测试 on 人未尽,杯莫停</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>&amp;copy; 2019 孙文礼</copyright>
+    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sunwenli.github.io/zh/tags/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>beego 单元测试的 bug</title>
+      <link>https://sunwenli.github.io/zh/post/2019-0627/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/zh/post/2019-0627/</guid>
+      <description>当我在用 beego 写单元测时,源代码里用到了 beego.AppConfig.GetSection() 然后在测试方法调用的时候就报错了 . 测试方法不能正确的读取配置文件的内容。部分代码如下： cfgs, err := beego.AppConfig.GetSection(&amp;quot;test_conf&amp;quot;) if err != nil</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -420,7 +420,30 @@
   
   
   
-  <div id="SOHUCS" sid="请将此处替换为配置SourceID的语句"></div>
+  
+    
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: 'e4b46d03f4f0f2c7c0f2',
+    clientSecret: '705c16af65a84f4554597cc1a053fb6aded553b7',
+    repo: 'sunwenli.github.io',
+    owner: 'sunwenli',
+    admin: ['sunwenli'],
+    id: location.pathname, 
+    distractionFreeMode: false 
+  });
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+      return;
+    }
+    gitalk.render('gitalk-container');
+  })();
+</script>
+
 </section>
 
 

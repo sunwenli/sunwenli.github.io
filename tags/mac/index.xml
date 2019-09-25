@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on Just Do it</title>
+    <link>https://sunwenli.github.io/tags/mac/</link>
+    <description>Recent content in Mac on Just Do it</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 Wenli Sun</copyright>
+    <lastBuildDate>Wed, 25 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sunwenli.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mac app integration and call zipalign, Throw An Error dyld: Library not loaded: @rpath/libc&#43;&#43;.dylib</title>
+      <link>https://sunwenli.github.io/post/2019-0925/</link>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/post/2019-0925/</guid>
+      <description>Recently Packtool(an App create by electron) added autoupdate feature ，The premise is You have to sign your app。 There was something wrong with the android group today😂。 The problem was caused by using zipalign(a tool for optimizing the apk) which integration in Packtool optimized the apk. Error: dyld: Library not loaded: @rpath/libc++.dylib Referenced from: myAppName.app/Contents/Resources/tool/mac/zipalign Reason: image not</description>
+    </item>
+    
+  </channel>
+</rss>

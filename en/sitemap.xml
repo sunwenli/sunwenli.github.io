@@ -5,6 +5,18 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/2019-0925/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/2019-0925/" hreflang="zh"/>
+    
+      <loc>https://sunwenli.github.io/post/2019-0925/</loc>
+      <lastmod>2019-09-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/post/2019-0907/" hreflang="en"/>
       <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/post/2019-0907/" hreflang="zh"/>
     
@@ -332,6 +344,19 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/electron/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/electron/" hreflang="zh"/>
+    
+      <loc>https://sunwenli.github.io/tags/electron/</loc>
+      <lastmod>2019-09-25T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://sunwenli.github.io/tags/fighting/</loc>
       <lastmod>2019-09-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -409,6 +434,19 @@
     
       <loc>https://sunwenli.github.io/tags/life/</loc>
       <lastmod>2019-07-08T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/mac/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/mac/" hreflang="zh"/>
+    
+      <loc>https://sunwenli.github.io/tags/mac/</loc>
+      <lastmod>2019-09-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -532,6 +570,19 @@
     
       <loc>https://sunwenli.github.io/tags/test/</loc>
       <lastmod>2019-06-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/tags/zipalign/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://sunwenli.github.io/zh/tags/zipalign/" hreflang="zh"/>
+    
+      <loc>https://sunwenli.github.io/tags/zipalign/</loc>
+      <lastmod>2019-09-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

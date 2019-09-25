@@ -11,6 +11,78 @@
     <atom:link href="/zh/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Mac app 内集成并调用 zipalign 报错 dyld: Library not loaded: @rpath/libc&#43;&#43;.dylib</title>
+      <link>https://sunwenli.github.io/zh/post/2019-0925/</link>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/zh/post/2019-0925/</guid>
+      <description>&lt;p&gt;打包工具(mac 版)增加了 electron 内置的自动更新功能，前提是必须对 app 签名才行。今天交给安卓组同学试用时出问题了😂。&lt;/p&gt;
+
+&lt;p&gt;使用打包工具内集成的 zipalign(一个对安卓 apk 优化的工具)对 apk 优化时报错了。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Error:
+
+dyld: Library not loaded: @rpath/libc++.dylib
+  Referenced from: myAppName.app/Contents/Resources/tool/mac/zipalign
+  Reason: image not found
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;很显然，这是 zipalign 引用动态库 libc++.dylib 且没有找到该库导致的。
+找不到的原因在于 &lt;code&gt;@rpath&lt;/code&gt;,对 &lt;code&gt;@rpath&lt;/code&gt; 的解释可以参考&lt;a href=&#34;http://www.tanhao.me/pieces/1361.html/&#34; target=&#34;_blank&#34;&gt;这篇文章&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;说白了 &lt;code&gt;@rpath&lt;/code&gt; 是一个类似 shell 中的变量, zipalign 在运行时会从 &lt;code&gt;@rpath&lt;/code&gt; 取出相应的值然后拼接到 &lt;code&gt;/libc++.dylib&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;事实上，&lt;code&gt;@rpath&lt;/code&gt; 在这里对应的值是 &lt;code&gt;/usr/lib&lt;/code&gt;，那为什么 zipalign 找不到这个库，原因在&lt;a href=&#34;https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Procedures/Procedures.html#//apple_ref/doc/uid/TP40005929-CH4-SW19&#34; target=&#34;_blank&#34;&gt;这篇文章&lt;/a&gt;可以找到。&lt;/p&gt;
+
+&lt;p&gt;简单来说，是苹果为了防止第三方恶意修改 app 加了一道防御墙，不允许 app 内部加载动态库或脚本。这些都限于签名的正式 app,未签名的 app 不受限制。&lt;/p&gt;
+
+&lt;p&gt;找到了问题的原因，接下来就是如何解决了。&lt;/p&gt;
+
+&lt;p&gt;我们继续&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;install_name_tool&lt;/code&gt; 这个工具是专门操作 app内的动态库配置的。&lt;/p&gt;
+
+&lt;p&gt;在终端执行以下命令&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;install_name_tool -change @rpath/libc++.dylib /usr/lib/libc++.dylib myAppName.app/Contents/Resources/tool/mac/zipalign&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;这样就把 zipalign 内找动态库的链接改好了。&lt;/p&gt;
+
+&lt;p&gt;附上 &lt;code&gt;install_name_tool&lt;/code&gt; 的简单使用说明 ：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;查看 &lt;code&gt;install_name_tool&lt;/code&gt; 支持哪些参数&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;install_name_tool -h
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;Usage: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/install_name_tool
+ [-change old new] ... [-rpath old new] ... [-add_rpath new] ... [-delete_rpath old] ... [-id name] input
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;修改动态库路径&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;install_name_tool -change &amp;lt;app内的@rpath值&amp;gt; &amp;lt;真实的路径值&amp;gt; &amp;lt;app路径&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;其余的命令暂时没用到，咱也不知道啥作用^^。&lt;/p&gt;
+
+&lt;p&gt;参考链接&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jianshu.com/p/bfa05ef3c482&#34; target=&#34;_blank&#34;&gt;MAC：@rpath的坑&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.tanhao.me/pieces/1361.html/&#34; target=&#34;_blank&#34;&gt;Xcode Build Settings中的变量@rpath,@loader_path,@executable_path&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/minger1202/article/details/71319308&#34; target=&#34;_blank&#34;&gt;install_name_tool解决dyld: Library not loaded&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
       <title>重生</title>
       <link>https://sunwenli.github.io/zh/post/2019-0907/</link>
       <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
@@ -650,72 +722,6 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
 &lt;p&gt;Copyright 2016 &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Customizing the homepage with widgets</title>
-      <link>https://sunwenli.github.io/zh/post/widgets/</link>
-      <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
-      
-      <guid>https://sunwenli.github.io/zh/post/widgets/</guid>
-      <description>
-
-&lt;p&gt;Homepage widgets display as sections on the homepage. They can be enabled/disabled and configured as desired. Academic has the following widgets available to use:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;About/biography&lt;/li&gt;
-&lt;li&gt;Selected publications&lt;/li&gt;
-&lt;li&gt;Recent publications&lt;/li&gt;
-&lt;li&gt;Recent news/blog posts&lt;/li&gt;
-&lt;li&gt;Projects&lt;/li&gt;
-&lt;li&gt;Selected talks&lt;/li&gt;
-&lt;li&gt;Recent talks&lt;/li&gt;
-&lt;li&gt;Contact&lt;/li&gt;
-&lt;li&gt;Custom widget (demonstrated with the &lt;em&gt;teaching&lt;/em&gt; example)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The example site that you copied to create your site uses all the different types of widget (except talks), so you can generally just delete the widgets you don&amp;rsquo;t need and customize the parameters of the widgets you wish to keep.&lt;/p&gt;
-
-&lt;p&gt;The parameters for each widget vary. They can be found in the preamble/frontmatter (between the pair of &lt;code&gt;+++&lt;/code&gt;) for each widget installed in the &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;By default, publications will be displayed in a simple list. If you prefer a more detailed list with abstract and image, you can enable the detailed publication list on the homepage by setting &lt;code&gt;detailed_list = true&lt;/code&gt; in &lt;code&gt;content/home/publications.md&lt;/code&gt;.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;h2 id=&#34;add-a-widget-to-the-homepage&#34;&gt;Add a widget to the homepage&lt;/h2&gt;
-
-&lt;p&gt;To add a widget manually, copy the relevant widget from &lt;code&gt;themes/academic/exampleSite/content/home/&lt;/code&gt; to your &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;p&gt;Widget identifiers are set to their respective filenames, so a &lt;code&gt;content/home/about.md&lt;/code&gt; widget can be linked from the navigation bar by setting the relevant URL as &lt;code&gt;&amp;quot;#about&amp;quot;&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;This means that if you want to use multiple instances of a widget, each widget will be assigned a unique ID based on the filename that you set. You can then use that ID for linking, like in the above example.&lt;/p&gt;
-
-&lt;h2 id=&#34;using-the-custom-widget&#34;&gt;Using the custom widget&lt;/h2&gt;
-
-&lt;p&gt;You can use the custom widget to create your own home page sections.&lt;/p&gt;
-
-&lt;p&gt;Simply duplicate (copy/paste) and rename the example &lt;em&gt;teaching&lt;/em&gt; file at &lt;code&gt;content/home/teaching.md&lt;/code&gt;. Then edit the section title, weight (refer to &lt;em&gt;Ordering sections&lt;/em&gt; below), and content as desired.&lt;/p&gt;
-
-&lt;p&gt;You may also wish to add a navigation link to the top of the page that points to the new section. This can be achieved by adding something similar to the following lines to your &lt;code&gt;config.toml&lt;/code&gt;, where the URL will consist of the first title word in lowercase:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;[[menu.main]]
-    name = &amp;quot;Research&amp;quot;
-    url = &amp;quot;#research&amp;quot;
-    weight = 10
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;remove-a-widget-from-the-homepage&#34;&gt;Remove a widget from the homepage&lt;/h2&gt;
-
-&lt;p&gt;If you do not require a particular widget, you can simply delete any associated files from the &lt;code&gt;content/home/&lt;/code&gt; folder.&lt;/p&gt;
-
-&lt;p&gt;To remove a navigation link from the top of the page, remove the associated &lt;code&gt;[[menu.main]]&lt;/code&gt; entry in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;ordering-widgets&#34;&gt;Ordering widgets&lt;/h2&gt;
-
-&lt;p&gt;The order that the homepage widgets are displayed in is defined by the &lt;code&gt;weight&lt;/code&gt; parameter in each of the files in the &lt;code&gt;content/home/&lt;/code&gt; directory. The widgets are displayed in ascending order of their &lt;code&gt;weight&lt;/code&gt;, so you can simply edit the &lt;code&gt;weight&lt;/code&gt; parameters as desired.&lt;/p&gt;
 </description>
     </item>
     

@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Mac app integration and call zipalign, Throw An Error dyld: Library not loaded: @rpath/libc&#43;&#43;.dylib</title>
+      <link>https://sunwenli.github.io/post/2019-0925/</link>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sunwenli.github.io/post/2019-0925/</guid>
+      <description>Recently Packtool(an App create by electron) added autoupdate feature ，The premise is You have to sign your app。 There was something wrong with the android group today😂。 The problem was caused by using zipalign(a tool for optimizing the apk) which integration in Packtool optimized the apk. Error: dyld: Library not loaded: @rpath/libc++.dylib Referenced from: myAppName.app/Contents/Resources/tool/mac/zipalign Reason: image not</description>
+    </item>
+    
+    <item>
       <title>rebirth</title>
       <link>https://sunwenli.github.io/post/2019-0907/</link>
       <pubDate>Sat, 07 Sep 2019 00:00:00 +0000</pubDate>
